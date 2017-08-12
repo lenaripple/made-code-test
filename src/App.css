@@ -23,15 +23,14 @@ nav text {
   color:#DEDEDE;
 }
 .mobile{
-  display: flex;
-  /*justify-content: flex-start;*/
 }
 .hamburger{
+  float: left;
   margin-left: 10px;
   height: 25px;;
   width: auto;
 }
-.profile{
+.mobile text{
   display: flex;
   justify-content: center;
 }
@@ -57,7 +56,6 @@ nav text {
 form{
   display: flex;
   flex-direction: column;
-  /*align-content: center;*/
   width: 75%;
 }
 input{
@@ -67,17 +65,27 @@ input, textarea{
   border-radius: 3px;
   background-color: #EBEBEB;
   border: none;
+  width: 100%;
 }
 label{
   margin: 10px 0 10px 0;
   color: #797979;
 }
-.button-pic{
+button{
+  background:linear-gradient(#FCE8D0, #F2BDA6);
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 125px;
-  height: auto;
-  display: flex;
+  height:45px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 3px 4px darkgray;
   align-self: flex-end;
-  margin: 20px 0 20px 0;
+}
+button:hover{
+  box-shadow: 0 6px 8px darkgray;
 }
 footer{
   display: flex;
