@@ -12,11 +12,13 @@ export default class Header extends Component{
               <img src={menu} className="hamburger"  alt="Menu"/>
               <text>Profile</text>
             </div>
-            <text>Made Movement</text>
-            <div className="header-right">
-              <a href="/">Home</a>
-              <a href="/">Log Out</a>
-            </div>
+            <div className="desktop">
+              <text>Made Movement</text>
+              <div className="header-right">
+                <a href="/">Home</a>
+                <a href="/">Log Out</a>
+              </div>
+            </div>  
           </nav>
         </header>
       </div>

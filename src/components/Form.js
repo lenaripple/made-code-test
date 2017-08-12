@@ -20,7 +20,7 @@ export default class Form extends Component{
           </label>
           <label>
             Bio<br></br>
-            <textarea name="bio" value="" rows="10" placeholder="A few words about yourself"></textarea>
+            <textarea name="bio" value="" rows="6" placeholder="A few words about yourself"></textarea>
           </label>
           <button type="submit" target="_blank" name="button">Save</button>
         </form>
