@@ -1,8 +1,8 @@
-body{
+body {
   font-family: 'Merriweather', serif;
   margin: 0;
 }
-nav{
+nav {
   color: #DEDEDE;
   width: 100%;
 	height: auto;
@@ -16,7 +16,7 @@ nav text {
 .desktop{
 
 }
-.header-right{
+.header-right {
   float: right;
   padding-left: 15px;
 }
@@ -25,44 +25,44 @@ nav text {
   text-decoration: none;
   color:#DEDEDE;
 }
-.hamburger{
+.hamburger {
   float: left;
   margin-left: 10px;
   height: 25px;;
   width: auto;
 }
-.mobile text{
+.mobile text {
   display: flex;
   justify-content: center;
 }
-.backsplash{
+.backsplash {
   display: flex;
   justify-content: center;
   height: 200px;
   background: linear-gradient(#FCE8D0, #F2BDA6);
   box-shadow: 0 5px 6px  darkgray;
 }
-.profile-pic{
+.profile-pic {
   margin-top: 25px;
 }
 .picture {
   width: 75%;
   height: auto;
 }
-.flex-form{
+.flex-form {
   margin-top: 100px;
   display: flex;
   justify-content: center;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   width: 75%;
 }
-input{
+input {
   height: 60px;
 }
-input, textarea{
+input, textarea {
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #EBEBEB;
@@ -72,11 +72,11 @@ input, textarea{
   margin-top: 5px;
   padding: 15px;
 }
-label{
+label {
   margin: 10px 0 10px 0;
   color: #797979;
 }
-button{
+button {
   background:linear-gradient(#FCE8D0, #F2BDA6);
   margin-top: 0;
   margin-bottom: 15px;
@@ -89,10 +89,10 @@ button{
   box-shadow: 0 3px 4px darkgray;
   align-self: flex-end;
 }
-button:hover{
+button:hover {
   box-shadow: 0 6px 8px darkgray;
 }
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,22 +104,22 @@ footer{
 
 
 @media (max-width:600px) {
-  .mobile{
+  .mobile {
     display:inline;
   }
   .desktop {
     display: none
   }
-  form{
+  form {
     width: 85%
   }
 }
 
 @media (min-width:601px) {
-  .mobile{
+  .mobile {
     display: none;
   }
-  .desktop{
+  .desktop {
     display: block;
   }
 }

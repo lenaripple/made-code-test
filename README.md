@@ -2,6 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Code Challenge for Made Movement
 
-To run locally, run `npm start` or `yarn start` in your command line.  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+To run locally, run `npm install`, then `npm start` or `yarn start` in your command line.  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
